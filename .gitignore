@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+pids
+logs
+*.log
+
+# dotenv environment variables file
+.env
+
+# Mac OS
+.DS_Store
+
+# Webpack build files
+/dist/
+/build/
+/public/
+
+# Visual Studio Code settings
+.vscode/
