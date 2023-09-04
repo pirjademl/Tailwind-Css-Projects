@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        body {}
+
         * {
             margin: 0;
             padding: 0;
@@ -22,7 +24,7 @@
 </head>
 
 <body>
-    <nav class="h-[90px] bg-customColor flex justify-between">
+    <nav class="h-[90px] bg-customColor p-10 flex justify-center sm:justify-between">
         <a href=""><img src="logo.png" alt=""></a>
         <ul class="flex gap-x-4 pr-4 text-custom-heading-text font-bold">
             <li><a href="#">Services</a></li>
@@ -30,55 +32,209 @@
             <li><a href="#">Clients</a></li>
             <li><a href="#">Team</a></li>
         </ul>
+        <button class="border-2 border-red-50 pr-10 pt-5 pb-5 text-center">hello</button>
     </nav>
     <main>
-        <section>
-            <article class="p-10 bg-customColor">
-                <h1 class="text-custom-heading-text font-semibold w-full text-2xl pb-8 text-center">Success starts with hardworking
-                    consultantss</h1>
-                <p class="text-fs-secondary">Morbi leo tortor, fermentum sed orci vitae, tempor auctor turpis. Fusce
+        <section class="">
+            <article class="lg:p-30 bg-customColor ">
+                <h1 class="text-custom-heading-text font-semibold text-2xl w-full sm:2xl pb-8 text-center ps-4 pe-4">
+                    Success
+                    starts with
+                    hardworking
+                    consultants</h1>
+                <p class="text-fs-secondary text-center text-[15px] p-5 ">Morbi leo tortor, fermentum sed orci vitae,
+                    tempor
+                    auctor turpis. Fusce
                     bibendum accumsan fringilla.
                     Nulla aliquam luctus sem, at posuere nibh lobortis et. Ut ac mollis risus, eu congue libero. Nulla
                     vestibulum ultricies tortor at ultrices.</p>
             </article>
-            <article class="bg-customColor p-10 flex flex-col-reverse gap-4 sm:flex sm:flex-row sm:pl-32 sm:pr-32">
-                <div class="bg-customColor sm:w-1/2">
+            <article
+                class="bg-color-neutral flex flex-col-reverse p-10 gap-4 lg:pt-32 lg:pr-32 lg:pl-32 sm:flex sm:flex-row ">
+                <div class="sm:w-1/2 sm:pt-[50px] md:w-1/2">
                     <h3 class="text-custom-heading-text font-semibold tracking-widest pb-2">Toolkit</h3>
                     <h1 class="text-custom-heading-text font-extrabold text-2xl pb-4">Our Services</h1>
-                    <p class="text-fs-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est
+                    <p class="text-fs-secondary text-[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer est
                         tellus, pulvinar ac iaculis
                         vel,
                         varius eu arcu. Integer id lectus posuere nisi dignissim gravida at ac justo. Ut nec dui rutrum,
                         cursus mauris sed integer eu vel.
                     </p>
                 </div>
-                <div class="sm:w-1/2 p:20
-                ">
-                    <img src="service.png" alt="">
+                <div class="sm:w-1/2 sm:mt-16">
+                    <img class="" src="images/service.png" alt="">
                 </div>
             </article>
-            <article class="bg-customColor flex flex-col-reverse p-10 gap-4 sm:flex sm:flex-row-reverse sm:p-32">
-                <div class="sm:w-1/2">
-                    <h3 class="text-custom-heading-text font-semibold tracking-widest pb-2">Experience</h3>
+            <article
+                class="bg-color-neutral flex flex-col-reverse p-10  gap-4  sm:pr-32 sm:pl-32  sm:flex sm:flex-row-reverse ">
+                <div class=" sm:w-1/2 sm:pt-[50px] md:w-1/2">
+                    <h3 class="text-fs-secondary font-semibold tracking-widest  pb-2">Experience</h3>
                     <h1 class="text-custom-heading-text font-extrabold text-2xl pb-4">Our Procces</h1>
-                    <p class="text-fs-secondary">Morbi egestas ultricies est. Proin eu odio nibh. Praesent venenatis mi
+                    <p class="text-fs-secondary text-[14px] sm:">Morbi egestas ultricies est. Proin eu odio nibh.
+                        Praesent venenatis mi
                         vitae pharetra porttitor.
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
                 </div>
-                <div class="sm:w-1/2">
-                    <img src="process.png" alt="">
+                <div class="sm:w-1/2 md:1/2">
+                    <img src="images/process.png" alt="">
                 </div>
             </article>
-            <article>
-                <div class="client-logo-container grid grid-cols-2 gap-4 bg-customColor sm:grid-cols-4 sm:grid-flow-col">
-                    <div class="bg-sky-300">Lorem ipsum dolor sit amet.</div>
-                    <div>Lorem ipsum dolor sit amet.</div>
-                    <div>Lorem ipsum dolor sit amet.</div>
-                    <div>Lorem ipsum dolor sit amet.</div>
+            <article class="bg-customColor sm:p-32">
+                <p
+                    class="text-center sm:text-xs sm:font-bold sm:tracking-[5px] text-fs-secondary font-bold uppercase tracking-widest">
+                    Client's that
+                    loves us</p>
+                <div class=" bg-customColor grid grid-cols-2 sm:grid-cols-4 gap-5 p-12">
+                    <div class="bg-bg-image flex justify-center items-center bg-image-container p-7">
+                        <img class="h-full w-full" src="images/powerbull.svg" alt="">
+                    </div>
+                    <div class="bg-bg-image flex justify-center items-center bg-image-container p-7">
+                        <img class="h-full w-full" src="images/lifebook.svg" alt="">
+                    </div>
+                    <div class="bg-bg-image flex justify-center items-center p-7">
+                        <img src="images/javastar.svg" alt="" srcset="">
+                    </div>
+                    <div class="bg-bg-image flex justify-center items-center p-7">
+                        <img src="images/mailbanana.svg" alt="" srcset="">
+                    </div>
+                    <div class="bg-bg-image flex justify-center items-center p-7">
+                        <img src="images/socialbeer.svg" alt="" srcset="">
+                    </div>
+                    <div class="bg-bg-image flex justify-center items-center p-7">
+                        <img src="images/cloudforce.svg" alt="" srcset="">
+                    </div>
+                    <div class="bg-bg-image flex justify-center items-center p-7">
+                        <img src="images/simplefolk.svg" alt="" srcset="">
+                    </div>
+                    <div class="bg-bg-image flex justify-center items-center p-7">
+                        <img src="images/calmseat.svg" alt="" srcset="">
+                    </div>
+                </div>
 
+            </article>
+            <article class=" flex flex-col lg:p-40  sm:flex-row gap-8  bg-customColor pb-4">
+                <div class="sm:w-1/2 border-r border-blue-200 p-10">
+                    <h1 class="text-custom-heading-text tracking-tighter text-2xl">Interested in our services</h1>
+                    <p class="text-fs-secondary pb-5">Use the form headline and this subheader to describe the purpose
+                        of
+                        your form</p>
+
+                    <form class="flex flex-col  gap-8" action="">
+                        <input class="  p-[12px] rounded-lg" type="text" placeholder="First Name">
+                        <input class="p-[12px] pr-4" type="text" placeholder="Last Name">
+                        <input class="p-[12px]" type="text" placeholder="Email">
+                        <input class="p-[12px]" type="text" placeholder="Phone Number">
+                        <select class="p-[12px] bg-white" name="country-selector" id="">
+                            <option selected>Select a Country</option>
+                            <option value="1">India</option>
+                            <option value="2">Australia</option>
+                        </select>
+                        <button class="uppercase text-white text-[16px] p-4 rounded bg-blue-500 hover:bg-blue-400">call
+                            to action</button>
+                        </m>
+
+                </div>
+                <div class="wrapper-fiv p-12 flex flex-col gap-2">
+                    <div class="flex gap-2">
+                        <img class="h-8 w-8" src="images/icon-ecommerce.svg" alt="">
+                        <h1>E-commerce</h1>
+                    </div>
+                    <div class="content pl-10 max-w-sm text-fs-secondary">
+                        Maecenas varius nunc a odio ultrices, non consectetur nunc scelerisque. Mauris nec condimentum
+                        est, id eleifend orci.
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                        <img class="h-8 w-8" src="images/icon-email.svg" alt="">
+                        <h1>Email systems</h1>
+                    </div>
+                    <div class="content pl-10 max-w-sm text-fs-secondary">
+                        Maecenas varius nunc a odio ultrices, non consectetur nunc scelerisque. Mauris nec condimentum
+                        est, id eleifend orci.
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                        <img class="h-8 w-8" src="images/video-production.svg" alt="">
+                        <h1>Video Production</h1>
+                    </div>
+                    <div class="content pl-10 max-w-sm text-fs-secondary">
+                        Maecenas varius nunc a odio ultrices, non consectetur nunc scelerisque. Mauris nec condimentum
+                        est, id eleifend orci.
+                    </div>
+                    <div class="flex gap-2 mt-4">
+                        <img class="h-8 w-8" src="images/photography.svg" alt="">
+                        <h1>Photography</h1>
+                    </div>
+                    <div class="content pl-10 max-w-sm text-fs-secondary">
+                        Maecenas varius nunc a odio ultrices, non consectetur nunc scelerisque. Mauris nec condimentum
+                        est, id eleifend orci.
+                    </div>
+
+
+                </div>
+
+
+            </article>
+            <article
+                class="bg-color-neutral flex flex-col p-10  gap-4  sm:pr-32 sm:pl-32  sm:flex sm:flex-row-reverse ">
+
+                <div class="sm:w-1/2 md:1/2 sm:p-20">
+                    <img src="images/Team.png" alt="">
+                </div>
+                <div class=" sm:w-1/2 sm:pt-[50px] md:w-1/2">
+                    <h3 class="text-fs-secondary font-semibold tracking-widest  pb-2 uppercase">Say Hello to team</h3>
+                    <h1 class="text-custom-heading-text font-extrabold text-2xl pb-4 uppercase">The Team</h1>
+                    <p class="text-fs-secondary text-[14px] sm:">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Integer est tellus, pulvinar ac iaculis vel, varius eu arcu. Integer id lectus posuere nisi
+                        dignissim gravida at ac justo. Ut nec dui rutrum, cursus mauris sed integer eu vel. </p>
+                </div>
+            </article>
+            <article class="p-10 bg-customColor grid grid-cols-1 gap-4 lg:grid-cols-2    lg:ps-32   ">
+                <div>
+                    <div class="flex gap-4">
+                        <img class="w-40 " src="images/profile1.png" alt="">
+
+
+
+                        <p class="w-44 text-fs-secondary">Maecenas fermentum sit amet urna vel porttitor. Mauris
+                            bibendum volutpat ultricies.</p>
+                    </div>
+
+                </div>
+                <div class="flex gap-4">
+                    <div>
+                        <img class="w-40" src="images/team2.png" alt="">
+                    </div>
+                    <div>
+                        <p class="w-44 text-fs-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                            unde eaque dignissimos
+                            accusamus eius fugit!</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div>
+                        <img class="w-40" src="images/team3.png" alt="">
+                    </div>
+                    <div>
+                        <p class="w-44 text-fs-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Neque, impedit magnam incidunt nemo
+                            animi dignissimos.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div>
+                        <img class="w-40" src="images/team4.png" alt="">
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ullam accusamus, numquam
+                            repudiandae vero doloribus.
+                        </p>
+                    </div>
                 </div>
             </article>
         </section>
+
     </main>
 </body>
 
